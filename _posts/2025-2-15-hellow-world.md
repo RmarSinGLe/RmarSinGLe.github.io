@@ -1,14 +1,16 @@
 ---
-title: "你好世界和工作流建设"
+title: "hello world"
 date: 2025-02-15 12:00:00 +0800
 categories: [开始]
 tags: [工作流]
 ---
-
-# 你好世界和工作流建设
+# hello world
 
 ## 工作流建设
 
+### 标准化Obsidian笔记格式
+
+确保笔记符合Jekyll的Front Matter格式要求：
 1. 标准化Obsidian笔记格式
 确保笔记符合Jekyll的Front Matter格式要求：
 
@@ -16,7 +18,7 @@ tags: [工作流]
 使用插件（如 Templater）生成包含必要Front Matter的模板：
 
 `title: "{{title}}"
-date: {{date:YYYY-MM-DD}}
+date: date:YYYY-MM-DD
 categories: [分类]
 tags: [标签]`
 
