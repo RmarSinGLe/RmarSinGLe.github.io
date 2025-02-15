@@ -1,6 +1,7 @@
 ---
-title: "{{你好世界和工作流建设}}"
-date: {{date:2025-02-15 12:00:00 +0800}}
+title: "你好世界和工作流建设"
+author: RmarSinGLe
+date: 2025-02-15 12:00:00 +0800
 categories: [开始]
 tags: [工作流]
 tags: [笔记]
@@ -16,10 +17,10 @@ tags: [笔记]
 在Obsidian中设置模板：
 使用插件（如 Templater）生成包含必要Front Matter的模板：
 
-·title: "{{title}}"
+`title: "{{title}}"
 date: {{date:YYYY-MM-DD}}
 categories: [分类]
-tags: [标签]·
+tags: [标签]`
 
 注：Chirpy可能需要额外字段（如layout），需根据主题文档调整。
 
