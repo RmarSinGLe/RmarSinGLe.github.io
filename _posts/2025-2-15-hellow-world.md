@@ -36,7 +36,8 @@ Jekyll要求文章存储在_posts目录，且文件名为YYYY-MM-DD-title.md：
 bash
 复制
 ### 示例：Python脚本提取日期并重命名
-import os
+
+`import os
 import frontmatter
 
 obsidian_dir = "/path/to/obsidian/notes"
@@ -47,7 +48,8 @@ for filename in os.listdir(obsidian_dir):
         post = frontmatter.load(os.path.join(obsidian_dir, filename))
         date = post.metadata.get("date", datetime.now().strftime("%Y-%m-%d"))
         new_name = f"{date}-{filename}"
-        os.rename(os.path.join(obsidian_dir, filename), os.path.join(jekyll_posts_dir, new_name))
+        os.rename(os.path.join(obsidian_dir, filename), os.path.join(jekyll_posts_dir, new_name))`
+
 3. 同步笔记到Chirpy仓库
 方案一：手动复制+Git推送
 将处理后的Markdown文件复制到Chirpy的_posts目录。
@@ -96,7 +98,7 @@ markdown
 yaml
 复制
 # .github/workflows/deploy.yml
-name: Deploy
+`name: Deploy
 on: [push]
 jobs:
   build:
@@ -111,7 +113,8 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./_site`
+        
 工具推荐
 Obsidian插件：
 
@@ -133,4 +136,4 @@ Front Matter格式错误：
 本地运行bundle exec jekyll serve调试后再推送。
 
 图片不显示：
-确保路径为相对路径（如/assets/img/image.png）。
+确保路径为相对路径
