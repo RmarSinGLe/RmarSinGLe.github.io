@@ -7,6 +7,7 @@ tags: [工作流]
  hello world
 
 ## obsidian chirpy workflow
+
 1. 标准化Obsidian笔记格式
 确保笔记符合Jekyll的Front Matter格式要求：
 在Obsidian中设置模板：
