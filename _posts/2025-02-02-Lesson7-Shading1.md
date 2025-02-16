@@ -28,12 +28,12 @@ Inputs：
 #### Diffuse Reflection
 
 每单位面积所吸收到的光与$cos θ = l • n$成正比
-![DiffuseReflection_1](assets/img/DiffuseReflection_1.png)
+![DiffuseReflection_1]
 
 #### Light Falloff
 
 光辐射强度和半径的平方成反比
-![LightFalloff](assets/img/LightFalloff.png)
+![LightFalloff]
 
 #### Lambertian(Diffuse) Shading
 
