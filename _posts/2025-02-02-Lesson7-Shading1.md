@@ -23,17 +23,17 @@ Inputs：
 - Surface normal，**n**
 - Light direction，**I**（for each of many lights）
 - Surface parameters（color，shininess，...）
-![shading point.png](assets/images/shading point.png)
+![shading point.png](assets/img/shading point.png)
 
 #### Diffuse Reflection
 
 每单位面积所吸收到的光与$cos θ = l • n$成正比
-![DiffuseReflection_1](assets/images/DiffuseReflection_1.png)
+![DiffuseReflection_1](assets/img/DiffuseReflection_1.png)
 
 #### Light Falloff
 
 光辐射强度和半径的平方成反比
-![LightFalloff](assets/images/LightFalloff.png)
+![LightFalloff](assets/img/LightFalloff.png)
 
 #### Lambertian(Diffuse) Shading
 

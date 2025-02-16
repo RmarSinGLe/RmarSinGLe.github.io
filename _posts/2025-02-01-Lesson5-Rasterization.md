@@ -25,26 +25,26 @@ Aliasing(走样/锯齿) 广泛存在
 
 
 - 傅里叶变换：一个函数可以经过一系列复杂变换写成另一个函数
-![Fourier transform](assets/fourier-transform.png)
+![Fourier transform](assets/img/fourier-transform.png)
 
 #### Filtering(滤波)
 
-![Visual Image Frequency Content](assets/visual-image-frequency-content.png)
+![Visual Image Frequency Content](assets/img/visual-image-frequency-content.png)
 
 高通滤波
-![Filter Out Low Frequencies Only](assets/filter-out-low-frequencies-only.png)
+![Filter Out Low Frequencies Only](assets/img/filter-out-low-frequencies-only.png)
 
 低通滤波
-![Filter Out High Frequencies](assets/filter-out-high-frequencies.png)
+![Filter Out High Frequencies](assets/img/filter-out-high-frequencies.png)
 
 特定频段滤波
-![Filter Out Low and High Frequencies](assets/filter-out-low-and-high-frequencies.png)
+![Filter Out Low and High Frequencies](assets/img/filter-out-low-and-high-frequencies.png)
 
 #### Convolution(卷积)  
 
-	![Filter Out High Frequencies](assets/filter-out-high-frequencies.png)
+	![Filter Out High Frequencies](assets/img/filter-out-high-frequencies.png)
 特定频段滤波
-	![Filter Out Low and High Frequencies](assets/filter-out-low-and-high-frequencies.png)
+	![Filter Out Low and High Frequencies](assets/img/Filter Out Low and High Frequencies.png)
 
 
 #### Convolution(卷积)
@@ -75,7 +75,7 @@ Idea：
    ——帧缓冲其来存储颜色值
    ——深度缓冲器（z-buffer）存储深度值
 
-![Z-buffer Algorithm](assets/z-buffer-algorithm.png)
+![Z-buffer Algorithm](assets/img/z-buffer Algorithm.png)
 
 
-![Z-buffer Complexity](assets/z-buffer-complexity.png)
+![Z-buffer Complexity](assets/img/z-buffer Complexity.png)
