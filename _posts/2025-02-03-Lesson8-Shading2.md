@@ -10,7 +10,8 @@ tags: [GAMES101,着色]
 
 - 高光在镜面反射方向附近 <=> 半程向量在法向量附近
 
-![brightCacul](assets/img/brightCacul.png)
+![brightCacul](assets/img/brightCacul.png)  
+
 $$h=bisector(v,l)=\frac {v+l}{||v+l||}$$
 
 $$
