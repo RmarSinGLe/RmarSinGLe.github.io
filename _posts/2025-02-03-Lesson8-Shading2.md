@@ -29,7 +29,7 @@ $$
 ### 环境光项
 
 由周围环境所反射的光在一个点上与光源方向和观察角度无关，观察点所得到的被近似认为是周围均匀的环境光
-![ambientTerm.png](assets/img/DiffuseTerm.png)
+![ambientTerm.png](assets/img/ambientTerm.png)
 
 $$L_a=k_aI_a$$
 
