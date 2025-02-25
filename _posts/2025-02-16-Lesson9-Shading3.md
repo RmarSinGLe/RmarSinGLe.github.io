@@ -14,7 +14,7 @@ $$
 & \alpha +\beta + \gamma =1
 \end{aligned}
 $$
-![[BarycentricCoordinatesFormulas.png]]
+![BarycentricCoordinatesFormulas.png](assets/img/BarycentricCoordinatesFormulas.png)
 
 通过重心坐标和线性插值可以表示一个顶点处的值
 
@@ -30,8 +30,8 @@ $$
 ### Bilinear interpolation（双线性插值）
 
 对非纹理连续点进行双线性插值
-![[BilinearInterpolation.png]]
-![[BilinearInterpolation2.png|300]]
+![BilinearInterpolation.png](assets/img/BilinearInterpolation.png)
+![BilinearInterpolation2.png](assets/img/BilinearInterpolation2.png)
 
 $$
 lerp(x,v_0,v_1)=v_0+x(v_1-v_0)\\
@@ -53,31 +53,22 @@ $$
 > 是一个快速，近似，只能应用与正方形区域的算法
 
 算法思想：将一个原分辨率的纹理贴图不断进行$log_2N$数量级压缩，每次压缩获得的纹理保存起来，然后根据远近对不同区域的纹理进行不同的纹理投射
-![[Mipmap.png]]
+![Mipmap.png](assets/img/Mipmap.png)
 >只需要额外1/3空间开销！
 
 如何计算获得方形区域？  
 通过光栅空间和纹理空间的像素坐标对应获得一个大概的区域进行近似  
-![[ComputingMipmapLevelD.png]]  
+![ComputingMipmapLevelD.png](assets/img/ComputingMipmapLevelD.png) 
 这样处理后边缘过渡仍然不平滑（在不同的LevelD之间明显）  
 #### Trillinear Interpolation（三线性插值）
 
 在两个不同D层之间再进行线性插值  
-![[TrillinearInterpolation.png]]
+![TrillinearInterpolation.png](assets/img/TrillinearInterpolation.png)
 缺点：在远处会出现过于模糊（overblur）的现象  
 原因：屏幕空间的规则像素无法对应纹理空间的规则像素  
 #### Anisotropic Filtering（各向异性过滤）
 
 在一张图像分别再向水平和数值方向进行压缩（ripmap）这样在纹理空间中可以查询到一些非方形区域
-![[IrregularPixelFootprintInTexture.png]]
-![[AnisotropicFiltering.png]]
+![IrregularPixelFootprintInTexture.png](assets/img/IrregularPixelFootprintInTexture.png)
+![AnisotropicFiltering.png](assets/img/AnisotropicFiltering.png)
 > 空间开销增加到原来的三倍！
-
-
-
-
-
-
-
-
-
