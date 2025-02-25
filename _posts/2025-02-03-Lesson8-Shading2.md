@@ -11,7 +11,7 @@ tags: [GAMES101,着色]
 
 - 高光在镜面反射方向附近 <=> 半程向量在法向量附近
 
-![brightCacul] 
+![brightCacul.png](assets/img/brightCacul.png)
 
 $$h=bisector(v,l)=\frac {v+l}{||v+l||}$$
 
@@ -36,7 +36,7 @@ $$L_a=k_aI_a$$
 
 ## Blinn-Phong Reflection Model
 
-![Blinn-PhongReflectionModel]
+![Blinn-PhongReflectionModel.png](assets/img/Blinn-PhongReflectionModel.png)
 $$\begin{equation}\begin{split}
 L&=L_a+L_d+L_s\\
 &=k_aI_a+k_d(I/r^2)max(0,\mathbf n \cdot \mathbf l)+k_s(I/r^2)max(0,\mathbf n \cdot \mathbf h)^p\\
