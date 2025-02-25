@@ -1,5 +1,6 @@
 ---
 title: "Shading3"
+math: true
 date: 2025-02-16 22:30:00 +0800
 categories: [图形学]
 tags: [着色]

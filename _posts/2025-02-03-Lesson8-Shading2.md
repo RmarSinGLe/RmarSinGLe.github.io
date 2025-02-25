@@ -1,5 +1,6 @@
 ---
 title: "shading2"
+math: true
 date: 2025-02-16 10:30:00 +0800
 categories: [图形学]
 tags: [GAMES101,着色]
