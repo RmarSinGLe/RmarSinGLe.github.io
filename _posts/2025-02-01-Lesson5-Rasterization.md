@@ -1,5 +1,6 @@
 ---
 title: "Rasterization"
+math: true
 date: 2025-02-01 10:30:00 +0800
 categories: [图形学]
 tags: [GAMES101,光栅化]
