@@ -38,7 +38,7 @@ b^2_0= & (1-t)^2b_0+2t(1-t)b_1+t^2b_2\\
 \end{aligned}
 $$
 > $b^n$ 贝塞尔曲线的n级数
-   $B^n_j(t)$ 伯恩斯坦多项式  $B^n_j(t)={n \choose i}t^i(1-t)^{n-i}$ 
+   $B^n_j(t)$ 伯恩斯坦多项式  $B^n_j(t)={n \choose i}t^i(1-t)^{n-i}$  
 > $b_j$ 贝塞尔曲线的控制点数 
 ### Properties of Bézier Curves
 
