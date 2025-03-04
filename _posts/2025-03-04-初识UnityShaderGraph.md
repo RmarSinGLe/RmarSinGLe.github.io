@@ -26,11 +26,11 @@ Unity ShaderGraph提供了许多不同功能的节点通过对各个节点组合
 ### Lit Shader Graph 和 Unlit Shader Graph 的区别
 
 前者带有光照模型，并且是基于物理的光照模型，用法类似于表面着色器；后者不带光照模型，需要自己写光照计算流程。
-![litAndUnlit.png](assets/litAndUnlit.png)
+![litAndUnlit.png](assets/img/litAndUnlit.png)
 
 ## ShaderGraph界面
 
-![UnityShaderGraph.png](assets/UnityShaderGraph.png)
+![UnityShaderGraph.png](assets/img/UnityShaderGraph.png)
 - **sailLit**：这个是创建的shaderGraph名称在这个区域下面是shaderGraph外部属性的添加处
 - Vertex：顶点着色器对着色的顶点控制属性有位置、法向和正切
 - Fragment：片段着色器光照计算、贴图计算在这里进行
