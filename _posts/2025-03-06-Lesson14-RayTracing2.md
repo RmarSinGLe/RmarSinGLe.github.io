@@ -95,6 +95,6 @@ $$\Phi \equiv \frac {dQ}{dt} \ [W=Watt] \ [lm=lumen]$$
 ![Radiance.png](assets/img/Radiance.png)
 一个单位面向一个单位立体角中辐射能量，这个量和前面两个量有关系所以可以建立联系
 
-Incdent Radiance：可以看作是Irradiance对一个单位面积的辐射$L(p,\omega)\equiv \frac{dE(p)}{d\omega cos\theta}$ 
-Exiting Radiance：可以看作是Intensity对一个单位立体角的辐射$L(p,\omega)\equiv \frac{dI(p,\omega)}{dAcos\theta}$
+Incdent Radiance：可以看作是Irradiance对一个单位面积的辐射$L(p,\omega)\equiv \frac{dE(p)}{d\omega cos\theta}$  
+Exiting Radiance：可以看作是Intensity对一个单位立体角的辐射$L(p,\omega)\equiv \frac{dI(p,\omega)}{dAcos\theta}$  
 ![IrradianceVsRadiance.png](assets/img/IrradianceVsRadiance.png)
