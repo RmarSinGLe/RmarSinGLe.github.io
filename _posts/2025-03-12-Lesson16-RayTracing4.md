@@ -31,7 +31,7 @@ shade(p, wo)
 	For each wi
 		Tracea ray r(p, wi)
 		If ray r hit the light
-		Lo+=（1/N))*Li*fr*cosine1pdf(wi)
+		Lo+=（1/N）*Li*fr*cosine1pdf(wi)
 Return Lo
 ```
 
@@ -88,15 +88,16 @@ Shade(p, wo)
 Shade(p, wo)
 	Manually specify a probability P_RR
 	Randomly select ksi in a uniform dist. in [O,1]
-	If (ksi > P_RR） return 0.0;
+	If (ksi > P_RR) return 0.0;
 	
 	Randomly choose ONE direction wi~pdf(w)
 	Trace a ray r(p, wi)
 	If ray r hit the light
 		Return L_i * f_r * cosine / pdf(wi) / P_RR
 	Else If ray r hit an object at q
-		Return shade(q, -wi) * f_r:*cosine / pdf(wi）/p_RR
+		Return shade(q, -wi) * f_r:*cosine / pdf(wi)/p_RR
 ```
+
 至此，我们已经得到了路径追踪的正确版本，但是它还不是十分有效率
 
 ### Sampleing the Light
@@ -128,11 +129,13 @@ Test Russian Roulette with probability P_RR
 Uniformly sample the hemisphere toward wi (pdf_hemi = 1 / 2pi)
 Trace a ray r(p, wi)
 If ray r hit a non-emitting object at q
-	L_indir = shade(q, -wi） * f_r * cos θ / pdf_hemi / P_RR
+	L_indir = shade(q, -wi) * f_r * cos θ / pdf_hemi / P_RR
 	
 Return L_dir + L_indir
 ```
+
 最后检测着色点和光源之间有无遮挡
+
 ```
  Contribution from the light source. 
  L_dir = 0.0 
