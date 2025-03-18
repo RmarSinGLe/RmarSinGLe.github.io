@@ -116,7 +116,8 @@ $$d\omega=\frac{dA\ cos\theta'}{||x'-x^2||}$$
 ![RewriteRenderingEq.png](assets/img/RewriteRenderingEq.png)
 现在我们可以认为光线（Radiance）来自两部分
 - 光源（直接的，不需要RR）
-- 其他物体反射的（非直接的，需要RR）
+- 其他物体反射的（非直接的，需要RR）  
+
 ```
 Shade(P, wo)
 # Contribution from the light source.
@@ -134,7 +135,7 @@ If ray r hit a non-emitting object at q
 Return L_dir + L_indir
 ```
 
-最后检测着色点和光源之间有无遮挡
+最后检测着色点和光源之间有无遮挡  
 
 ```
  Contribution from the light source. 
