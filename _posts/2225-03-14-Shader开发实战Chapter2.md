@@ -1,7 +1,7 @@
 ---
 title: "Shader开发实战Chapter2"
 math: true
-date: 2025-04-14 10:30:00 +0800
+date: 2025-03-14 10:30:00 +0800
 categories: [渲染管线]
 tags: [shader]
 ---
